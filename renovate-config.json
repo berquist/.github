@@ -33,6 +33,10 @@
         "setup-cfg"
       ],
       "addLabels": ["python"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
   ],
   "pre-commit": {
